@@ -1,0 +1,121 @@
+  body{
+    background-color: #152238;
+    margin: 0px;
+  }
+
+  main .home h2{
+    /* background-color: blue; */
+    /* color: #ADD8E6; */
+    color: #CCCCCC;
+    height: 100px;
+    /* border: solid; */
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 30px;
+  }
+
+  main .home h4{
+    color: #CCCCCC;
+    display: inline-block;
+    position: relative;
+    margin-left: 400px;
+    margin-top: 200px;
+  }
+
+  main .home button{
+    color: white;
+    /* background-color: red; */
+    background-color: #3498db;
+    display: block;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 50px;
+    width: 130px;
+    padding-left: 40px;
+  }
+
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;  
+  }
+
+   nav img {
+    height: 30px;
+    width: auto;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  nav ul li {
+    margin-right: 20px;
+  }
+
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  nav ul li a:hover {
+    color: rgb(20, 20, 240);
+  } 
+
+  .home{
+    height: 570px;
+    border: solid;
+  }
+
+  .about{
+    height: 450px;
+    border: solid;
+  }
+  .projects{
+    height: 600px;
+    border: solid;
+  }
+
+  .contact{
+    height: 400px;
+    border: solid;
+  }
+
+  footer{
+    height: 200px;
+    border: solid;
+  }
+
+  .about h1{
+    color: white;
+    height: 200px;
+    width: 200px;
+  }
+
+ .projects_box{
+    height: 80%;
+    width: 100%;
+    background-color: red;
+  }
+
+  .projects_box div{
+    height: 30%;
+    width: 20%;
+    background-color: blueviolet;
+    display: inline-block;
+    margin: 2.5%;
+    align-items: center;
+  }
