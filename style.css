@@ -94,26 +94,51 @@
     border: solid;
   }
 
-  .about{
-    height: 450px;
+ .about{ 
+    /* height: 450px; */
     border: solid;
-  }
+  } 
 
-  main .about h4{
+  /* main .about h4{
     text-align: center;
     color: white;
     margin-bottom: 350px;
     border: solid;
+  } */
+
+
+  .card {
+    width: 95%;
+    max-width: 5000px; 
+    background-color: #007bff; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden; 
+  }
+
+  .card:hover{
+    background-color: green;
+  }
+  
+  .card-content {
+    padding: 50px;
+  }
+  
+  h4 {
+    color: white;
+    margin: 0;
+    text-align: center;
+  }
+  
+  hr {
+    border-color: white; /* Adjust hr color */
   }
 
   main .about hr{
-    width: 50%; 
+    width: 70%; 
   }
-
-  /* .projects{
-    height: 600px;
-    border: solid;
-  } */
 
   .contact{
     height: 400px;
