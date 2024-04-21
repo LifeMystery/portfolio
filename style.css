@@ -22,7 +22,7 @@
     margin-top: 200px;
   }
 
-  main .home button{
+  .resume{
     color: white;
     background-color: #3498db;
     display: block;
@@ -31,8 +31,17 @@
     margin-top: 30px;
     margin-left: 30px;
     height: 50px;
-    width: 200px;
+    width: 100px;
     padding-left: 40px;
+    text-decoration: none;
+  }
+
+  .resume:hover {
+    background-color: green; 
+  }
+
+  .home img{
+    height: 50px;
   }
 
   main .home button img{
@@ -101,10 +110,10 @@
     width: 50%; 
   }
 
-  .projects{
+  /* .projects{
     height: 600px;
     border: solid;
-  }
+  } */
 
   .contact{
     height: 400px;
@@ -123,17 +132,28 @@
     text-align: center;
   }
 
- .projects_box{
-    height: 80%;
-    width: 100%;
-    background-color: red;
+ .projects{
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
   }
 
-  .projects_box div{
-    height: 30%;
-    width: 20%;
-    background-color: blueviolet;
-    display: inline-block;
-    margin: 2.5%;
-    align-items: center;
+  .project{
+    background-color: steelblue;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border: skyblue 1px solid;
+  }
+
+  .divide h1{
+    color: white;
+  }
+
+  .divide h4{
+    color: white;
   }
