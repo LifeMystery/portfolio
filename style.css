@@ -2,7 +2,56 @@
     background-color: black;
     margin: 0px;
   }
+
 /* Home section */
+/* ---------------------------------------------------------------------------- */
+
+/* Navigator section */
+nav {
+  background-color: rgba(40, 58, 90, 0.9);
+  color: #fff;
+  position: fixed; 
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;  
+  height: 13%;
+  width: 100%;
+  z-index: 1000;
+}
+
+ nav img {
+  height: 30px;
+  width: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: rgb(20, 20, 240);
+} 
+/* End of nav section */
+
 .home{
   height: 650px;
   border: solid green;
@@ -92,37 +141,12 @@
     border: solid;
   }
 
-/* .floating-container{
-  height: 60%;
-  width: 30%;
-  margin-left: 90px;
-  border: solid orange;
-}
-.floating {
-  height: 60%;
-  width: 30%;
-  overflow: hidden; /* Ensures no overflow */
-}
-
 .floating-image {
   height: 100%;
   width: 100%;
   object-fit: cover; /* Ensures the image covers the given dimensions */
   animation: float 3s ease-in-out infinite;
 }
-
-@keyframes float {
-  0% {
-      transform: translateY(0);
-  }
-  50% {
-      transform: translateY(-20px); /* Adjust the vertical distance */
-  }
-  100% {
-      transform: translateY(0);
-  }
-} */
-
 
 /* Starting of the animations from codepen.io */
 @keyframes sf-fly-by-1 {
@@ -201,52 +225,9 @@
   border: solid;
 } 
 /* end of animation */
-  /* End of home section */
-/* Navigator section */
-  nav {
-    background-color: rgba(40, 58, 90, 0.9);
-    color: #fff;
-    position: fixed; 
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;  
-    height: 13%;
-    width: 100%;
-    z-index: 1000;
-  }
 
-   nav img {
-    height: 30px;
-    width: auto;
-  }
-
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-
-  nav ul li {
-    margin-right: 20px;
-  }
-
-  nav ul li:last-child {
-    margin-right: 0;
-  }
-
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-  }
-
-  nav ul li a:hover {
-    color: rgb(20, 20, 240);
-  } 
-/* End of nav section */
+/* End of home section */
+  /* ---------------------------------------------------------------------------- */
 
  .about{ 
     height: 650px;
@@ -371,7 +352,9 @@
     color: white;
   }
 
-  /* The following is for contact email, card */
+  
+  /* The following is for contact email, card found on Openio*/
+  /* ---------------------------------------------------------------------------- */
   #feedback-page{
     text-align:center;
   }
@@ -430,7 +413,7 @@
     border:#30aed6 solid 3px;
   }
   
-  /* Icons ---------------------------------- */
+  /* Icons */
   #name{
     background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
     background-size: 30px 30px;
@@ -533,3 +516,4 @@
     }
   }
   /* end of the contact email card */
+    /* ---------------------------------------------------------------------------- */
