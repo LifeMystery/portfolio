@@ -1,15 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 
-$main-font: 'PT Sans', sans-serif;
+/* $main-font: 'PT Sans', sans-serif; */
 
-// Colors
-$text-color: #444;
-$title-color: #3c3c3c;
-$bg-color: #f9f9f9;
-$secondary-bg-color: #1a1a1a;
+/* // Colors */
+/* $text-color: #444; */
+/* $title-color: #3c3c3c; */
+/* $bg-color: #f9f9f9; */
+/* $secondary-bg-color: #1a1a1a; */
 
-$progressbar-bg: #ececec;
-$progressbar-color: #34495e;
+/* $progressbar-bg: #ececec; */
+/* $progressbar-color: #34495e; */
 
 *,
 *:before,
@@ -29,7 +29,7 @@ body{
   color: #444;
   background: #f9f9f9;
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 a{
@@ -166,11 +166,10 @@ section{
           -webkit-border-radius: 0 5px 5px;
           -moz-border-radius: 0 5px 5px;
           border-radius: 0 5px 5px;
-          
 
           h2{
             font-size: 1.5em;
-            color: #444;
+            color: #3c3c3c;
             padding-bottom: 10px;
           }
 
@@ -358,7 +357,7 @@ section{
 /*##### PORTFOLIO SECTION #####*/
 
 .portfolio{
-  background: #3c3c3c;
+  background: #f9f9f9;
   padding: 80px 0;
   
   .content{
@@ -394,7 +393,7 @@ section{
           padding: 10px 0;
         }
         .project-description{
-          color: #3c3c3c;
+          color: #444;
         }
       }
     }
