@@ -7,83 +7,85 @@
     <link rel="stylesheet" href="./testing.css">
     <script src="./testing.js"></script>
 </head>
-<body>
-  <section class="intro">
-    <div class="container">
-      <h1>Vertical Timeline &darr;</h1>
-      <p>Timeline v2 <a href="https://codepen.io/tutsplus/pen/zYQqPYG" target="_blank">here</a></p>
-    </div>
-  </section>
-  
-  <section class="timeline">
-    <ul>
-      <li>
-        <div>
-          <time>1934</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-        </div>
-      </li>
-      <li>
-        <div>
-          <time>1937</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
-        </div>
-      </li>
-      <li>
-        <div>
-          <time>1940</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
-        </div>
-      </li>
-      <li>
-        <div>
-          <time>1943</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-        </div>
-      </li>
-      <li>
-        <div>
-          <time>1946</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-        </div>
-      </li>
-      <li>
-        <div>
-          <time>1956</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-        </div>
-      </li>
-      <li>
-        <div>
-          <time>1957</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-        </div>
-      </li>
-      <li>
-        <div>
-          <time>1967</time> Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.
-        </div>
-      </li>
-      <li>
-        <div>
-          <time>1977</time> Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.
-        </div>
-      </li>
-      <li>
-        <div>
-          <time>1985</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-        </div>
-      </li>
-      <li>
-        <div>
-          <time>2000</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-        </div>
-      </li>
-      <li>
-        <div>
-          <time>2005</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-        </div>
-      </li>
-    </ul>
-  </section>
-  <footer class="page-footer">
-    <span>made by </span>
-    <a href="https://georgemartsoukos.com/" target="_blank">
-      <img width="24" height="24" src="https://assets.codepen.io/162656/george-martsoukos-small-logo.svg" alt="George Martsoukos logo">
-    </a>
-  </footer>
+<body class="antialiased bg-gray-100 text-gray-800">
+  <div class="relative container mx-auto px-6 flex flex-col space-y-8">
+      <div
+          class="absolute z-0 w-2 h-full bg-white shadow-md inset-0 left-17 md:mx-auto md:right-0 md:left-0"
+      ></div>
+      <div class="relative z-10 ">
+          <img
+              src="https://images.pexels.com/photos/885880/pexels-photo-885880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100"
+              alt=""
+              class="timeline-img"
+          />
+          <div class="timeline-container">
+              <div class="timeline-pointer" aria-hidden="true"></div>
+              <div class="bg-white p-6 rounded-md shadow-md">
+                  <span
+                      class="font-bold text-indigo-600 text-sm tracking-wide"
+                      >Jan 2021</span
+                  >
+                  <h1 class="text-2xl font-bold pt-1">
+                      An amazing travel
+                  </h1>
+                  <p class="pt-1">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing
+                      elit. Ex iste suscipit reiciendis, perferendis vel
+                      consequuntur cupiditate ad commodi provident,
+                      sapiente veniam sed autem.
+                  </p>
+              </div>
+          </div>
+      </div>
+      <div class="relative z-10">
+          <img
+              src="https://images.pexels.com/photos/3223552/pexels-photo-3223552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100"
+              alt=""
+              class="timeline-img"
+          />
+          <div class="timeline-container timeline-container-left">
+              <div
+                  class="timeline-pointer timeline-pointer-left"
+                  aria-hidden="true"
+              ></div>
+              <div class="bg-white p-6 rounded-md shadow-md">
+                  <span
+                      class="font-bold text-indigo-600 text-sm tracking-wide"
+                      >Aug 2020</span
+                  >
+                  <h1 class="text-2xl font-bold pt-1">A trip far away</h1>
+                  <p class="pt-1">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing
+                      elit. Ex iste suscipit reiciendis, perferendis vel
+                      consequuntur cupiditate ad commodi provident,
+                      sapiente veniam sed
+                  </p>
+              </div>
+          </div>
+      </div>
+      <div class="relative z-10">
+          <img
+              src="https://images.pexels.com/photos/2906807/pexels-photo-2906807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=100"
+              alt=""
+              class="timeline-img"
+          />
+          <div class="timeline-container">
+              <div class="timeline-pointer" aria-hidden="true"></div>
+              <div class="bg-white p-6 rounded-md shadow-md">
+                  <span
+                      class="font-bold text-indigo-600 text-sm tracking-wide"
+                      >March 2020</span
+                  >
+                  <h1 class="text-2xl font-bold pt-1">Solo Trip</h1>
+                  <p class="pt-1">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing
+                      elit. Ex iste suscipit reiciendis, perferendis vel
+                      consequuntur cupiditate ad commodi provident,
+                      sapiente veniam sed autem, perspiciatis
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
 </body>
 </html>
