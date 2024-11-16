@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="min-h-screen px-8 py-5 flex flex-col gap-16 bg-black font-serif">
+    <div class="min-h-screen px-8 py-5 flex flex-col gap-16 bg-black font-serif md:px-10 md:py-7">
         <header class="flex justify-between">
             <div>
                 <img src="./assets/signature.png" alt="" class="w-15 h-6 bg-white">
@@ -20,8 +20,8 @@
         </header>
         <main>
             <div class=" flex flex-col md:flex-row items-center">
-                <div class="md:w-1/2 p6">
-                    <img src="./assets/moon-typing.png" alt="moon typing" class="w-full h-auto md:float-right">
+                <div class="w-[310px] h-[310px] overflow-hidden">
+                    <img src="./assets/moon-typing.png" alt="moon typing" class="w-full h-full object-contain">
                 </div>
 
                 <!-- the following is the border ===> border-4 border-solid border-blue-300 -->
@@ -49,24 +49,26 @@
                         </button>
                     </div>
                 </div>
-             </div>
-            <!-- The following is for the about me section -->
-            <div>
-                <img src="./assets/light-bulb.png" alt="">
             </div>
-            <div class="text-white mb-6">
-              <h1 class="text-center text-3xl font-semibold mb-4">About Me</h1>
-              <div class="relative text-center mb-6">
-                <div class="h-1 w-24 bg-green-500 mx-auto rounded"></div>
-              </div>
-                <h3>
-                    I'm <span class="text-blue-500">Innocent Lebo Aphane</span>, a dedicated software engineering student with a passion for technology and innovation. Currently pursuing my certificate at WeThinkCode_ </br>
-                    I am a proactive learner with a strong interest in <span class="text-blue-500">data science</span> and <span class="text-blue-500">machine learning</span>.I am Committed to the power of collaboration and teamwork.</br></br>
-                    Key Strengths:</br>
-                    <span class="text-blue-500">* Adaptability</span>: Quick to learn and apply new technologies in fast-changing environments.</br>
-                    <span class="text-blue-500">* Problem-Solving</span>: A logical thinker with a strong ability to break down complex issues into manageable solutions.</br>
-                    <span class="text-blue-500">* My greatest strength is that I work harder than anybody else</span>
-                </h3>
+            <!-- The following is for the about me section -->
+            <div class=" flex flex-col md:flex-row items-center">
+                <div class="w-[310px] h-[310px] overflow-hidden">
+                    <img src="./assets/light-bulb.png" alt="" class="w-full h-full object-contain">
+                </div>
+                <div class="text-white mb-6">
+                <h1 class="text-center text-3xl font-semibold mb-4">About Me</h1>
+                <div class="relative text-center mb-6">
+                    <div class="h-1 w-24 bg-green-500 mx-auto rounded"></div>
+                </div>
+                    <h3>
+                        I'm <span class="text-blue-500">Innocent Lebo Aphane</span>, a dedicated software engineering student with a passion for technology and innovation. Currently pursuing my certificate at WeThinkCode_ </br>
+                        I am a proactive learner with a strong interest in <span class="text-blue-500">data science</span> and <span class="text-blue-500">machine learning</span>.I am Committed to the power of collaboration and teamwork.</br></br>
+                        Key Strengths:</br>
+                        <span class="text-blue-500">* Adaptability</span>: Quick to learn and apply new technologies in fast-changing environments.</br>
+                        <span class="text-blue-500">* Problem-Solving</span>: A logical thinker with a strong ability to break down complex issues into manageable solutions.</br>
+                        <span class="text-blue-500">* My greatest strength is that I work harder than anybody else</span>
+                    </h3>
+                </div>
             </div>
             
             <!-- The following is the skills section -->
