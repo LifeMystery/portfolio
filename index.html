@@ -31,10 +31,28 @@
                     <a href="#">Contact</a>
                 </li>
             </ul>
-            <div class="lg:hidden">   
-                <i class="fa-solid fa-bars text-white"></i>
+            <div class="dropdown-menu text-white absolute -top-full left-0  w-full flex flex-col gap-6 items-end bg-[#ffffff30] text-lg font-bold">
+                <ul class="">
+                    <li class="px-6 hover:text-green-400">Home</li>
+                    <li class="px-6 hover:text-green-400">About</li>
+                    <li class="px-6 hover:text-green-400">Skills</li>
+                    <li class="px-6 hover:text-green-400">Experience</li>
+                    <li class="px-6 hover:text-green-400">Contact</li>
+                </ul>
+            </div>
+            <div class="toggle-button lg:hidden">   
+                <i class="fa-solid fa-bars text-white"></i> 
             </div>
         </header>
+        <script>
+                const toggleBtn = document.querySelector(".toggle-button");
+                const dropDwn = document.querySelector(".dropdown-menu");
+
+                toggleBtn.addEventListener("click", () =>{
+                    dropDwn.classList.toggle("top-16");
+                })
+
+        </script>
         <main>
             <div class=" flex flex-col md:flex-row items-center">
                 <div class="w-[310px] h-[310px] overflow-hidden flex-1 md:order-2 lg:order-2 xl:order-2 2xl:order-2">
