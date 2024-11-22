@@ -17,28 +17,38 @@
                 </div>
                 <ul class="hidden lg:flex justify-between gap-6 text-white ">
                     <li class="hover:text-green-400">
-                        <a href="#">Home</a>
+                        <a href="#home">Home</a>
                     </li>
                     <li class="hover:text-green-400">
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li class="hover:text-green-400">
-                        <a href="#">Skills</a>
+                        <a href="#skills">Skills</a>
                     </li>
                     <li class="hover:text-green-400">
-                        <a href="#">Experience</a>
+                        <a href="#experience">Experience</a>
                     </li>
                     <li class="hover:text-green-400">
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
                 <div class="dropdown-menu text-white absolute -top-full left-0  w-full flex flex-col gap-6 items-end bg-[#ffffff30] text-lg font-bold">
                     <ul class="">
-                        <li class="px-6 hover:text-green-400">Home</li>
-                        <li class="px-6 hover:text-green-400">About</li>
-                        <li class="px-6 hover:text-green-400">Skills</li>
-                        <li class="px-6 hover:text-green-400">Experience</li>
-                        <li class="px-6 hover:text-green-400">Contact</li>
+                        <li class="px-6 hover:text-green-400">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="px-6 hover:text-green-400">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="px-6 hover:text-green-400">
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li class="px-6 hover:text-green-400">
+                            <a href="#experience">Experience</a>
+                        </li>
+                        <li class="px-6 hover:text-green-400">
+                            <a href="#contact">Contact</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="toggle-button lg:hidden">   
@@ -55,7 +65,7 @@
 
             </script>
             <main>
-                <div class=" flex flex-col md:flex-row items-center">
+                <div class=" flex flex-col md:flex-row items-center" id="home">
                     <div class="w-[310px] h-[310px] overflow-hidden flex-1 md:order-2 lg:order-2 xl:order-2 2xl:order-2">
                         <img src="./assets/moon-typing.png" alt="moon typing" class="w-full h-full object-contain  floating-image">
                     </div>
@@ -79,7 +89,7 @@
 
                     <!-- the following is the border ===> border-4 border-solid border-blue-300 -->
 
-                    <div class="md:w-1/2 text-white flex-1 flex-col md:items-start items-center justify-center text-center md:text-left marker:p-6 md:order-1 lg:order-1 xl:order-1 2xl:order-1 md:pl-[140px] text-transform">
+                    <div class="md:w-1/2 text-white flex-1 flex-col md:items-start items-center justify-center text-center md:text-left marker:p-6 md:order-1 lg:order-1 xl:order-1 2xl:order-1 md:pl-[140px]  lg:pl-[140px] lx:pl-[140px] ext-transform">
                         <h1 class="text-3xl font-BebasNeue">👋 Hello, world!</h1>
                         <h1>
                         My name is <span class="highlight text-blue-500">Lebo Aphane</span> <br> 
@@ -104,7 +114,7 @@
                     </div>
                 </div>
                 <!-- The following is for the about me section -->
-                <div class=" flex flex-col md:flex-row items-center py-10 text-transform">
+                <div class="flex flex-col md:flex-row items-center py-10 text-transform" id="about">
                     <div class="w-[310px] h-[310px] overflow-hidden">
                         <img src="./assets/light-bulb.png" alt="" class="w-full h-full object-contain">
                     </div>
@@ -125,7 +135,7 @@
                 </div>
                 
                 <!-- The following is the skills section -->
-                <div class="text-white py-10 text-transform">
+                <div class="text-white py-10 text-transform" id="skills">
                     <h1 class="text-center text-4xl font-bold mb-6">Skills</h1>
                     <div class="relative text-center mb-6">
                         <div class="h-1 w-24 bg-green-500 mx-auto rounded"></div>
@@ -207,7 +217,7 @@
 
                 <!-- The following is the experience section -->
 
-                <section class="text-white mb-6 py-10 text-transform">
+                <section class="text-white mb-6 py-10 text-transform" id="experience">
                     <h1 class="text-center text-3xl font-semibold mb-4">experience</h1>
                     <div class="relative text-center mb-6">
                     <div class="h-1 w-24 bg-green-500 mx-auto rounded"></div>
@@ -340,7 +350,7 @@
                 
 
             <!-- The following is the contact section -->
-            <div class="text-white py-10">
+            <div class="text-white py-10" id="contact">
                 <h1 class="text-center text-4xl font-bold mb-6">Contact</h1>
                 <div class="relative text-center mb-6">
                     <div class="h-1 w-24 bg-green-500 mx-auto rounded"></div>
